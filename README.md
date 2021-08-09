@@ -1,9 +1,9 @@
 # Palapeli
 Yhdistä palat oikeille paikoille!
 
-<img src="..." width="400">
+<img src="https://raw.githubusercontent.com/Lottuska/palapeli/main/project_screenshot.png" width="700">
 
-[Näytä selaimessa](https://lottuska.github.io/palapeli/)
+[Pelaa!](https://lottuska.github.io/palapeli/)
 
 ## Kuvaus
 Pelaajan tehtävänä on muodostaa kuvapaloista yhtenäinen kuva. 
@@ -18,3 +18,6 @@ Sovelluksen tarkoituksena on ollut harjoitella jQuery ja jQuery UI -kirjastojen 
 
 ### Käyttö
 Peliä voi pelata [selaimessa.](https://lottuska.github.io/palapeli/)
+
+### Virheet & bugit
+* Huono responsiivisuus eri näyttökoilla. Korjaamatta! (9.8.2021)
