@@ -1,0 +1,158 @@
+/* General */
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("images/pexels-pixabay-248812.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #3e6b10;
+    color: #fff;
+    font-size: 1.2em;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+header {
+    margin: 10px 0px;
+}
+header h1 {
+    margin: 10px;
+    font-family: 'Bubblegum Sans', cursive;
+    color: #fff;
+    text-shadow:
+    2px 2px 0px #000,
+    2px -2px 0px #000,
+    -2px 2px 0px #000,
+    -2px -2px 0px #000;
+}
+#time {
+    text-shadow:
+    1px 1px 0px #000,
+    1px -1px 0px #000,
+    -1px 1px 0px #000,
+    -1px -1px 0px #000;
+}
+#game {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+/* Pop up */
+#popup, #popupComplete {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+#popupContent {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#popupContent h1 {
+    color: #fff;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 40px;
+
+}
+#starRating {
+    margin-bottom: 30px;
+}
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.yellow { color: #e5c642; }
+.material-icons.grey { color: #e3e3e3; }
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #657d3e;
+    box-shadow: 1px 5px 0px #556a35;
+    color: #fff;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 30px;
+}
+button:hover {
+    background-color: #556a35;
+    box-shadow: 1px 5px 0px #495b2d;
+    transition: 0.3s;
+}
+
+/* Puzzle image and pattern */
+img {
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    height: auto;
+}
+table {
+    margin: 0 auto;
+    border: 0;
+    border-collapse: collapse;
+}
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+    background-color: #fbfbfb;
+    width: 160px;
+    height: 179.256px;
+    max-width: 160px;
+    max-height: 179.256px;
+    min-width: 160px;
+    min-height: 179.256px;
+    text-align: center;
+    opacity: 0.2;
+}
+table tr:nth-of-type(2n + 1) td:nth-of-type(2), table tr:nth-of-type(2n) td:nth-of-type(2n + 1) {
+    background-color: #efefef;
+    opacity: 0.1;
+}
+.draggable {
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    height: 179.256px;
+    position: absolute;
+}
+/* Footer */
+footer {
+    margin: 10px 0px;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+}
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #657d3e;
+    text-shadow:
+    1px 1px 0px #fff,
+    1px -1px 0px #fff,
+    -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+}
+footer a:hover {
+    color: #556a35;
+    transition: 0.3s;
+}
+
+/*
+
+Puzzle image:
+2592px / 3 = 864px
+3872px / 4 = 968px
+
+*/
